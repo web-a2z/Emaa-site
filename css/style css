@@ -1,0 +1,44 @@
+.body
+{width: 90%;margin-left: 5%;margin-right: 5%;
+}
+.foooter
+{font-size: 12px;color: #a6a6a6;   
+}
+.header
+{font-size: 10px;
+}
+.header hr
+{width: 20px;
+}
+.title_grean20
+{color: #76923c;font-size: 20px;
+}
+.title_grean24
+{color: #76923c;font-size: 24px;   
+}
+.title_blue16
+{color: #4fc0bd;font-size: 16px;   
+}
+.title_blue18
+{color: #4fc0bd;font-size: 18px;   
+}
+.title_blue22
+{color: #4fc0bd;font-size: 22px;
+}
+.table_green hr
+{background-color: #e6eed5;
+}
+.table_green td{border-bottom-color: #76923c;
+}
+.order_ll
+{   
+    
+}
+.dis_l
+{
+list-style-type:disc;color: #4fc0bd;
+}
+.cir_l
+{
+    list-style-type: circle;color: #4fc0bd;
+}
