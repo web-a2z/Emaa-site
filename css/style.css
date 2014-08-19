@@ -44,7 +44,8 @@ list-style-type:disc;color: #4fc0bd;
 }
 .cir_l
 {
-list-style-type:disc;color: #4fc0bd;
+list-style-type:circle;
+color: #4fc0bd;
 }
 .cir_l span
 {color: #000;
