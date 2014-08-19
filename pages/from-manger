@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>مشروع تعليم الصم </title>
+        <base href="">
+        <link href="css/style css.css" rel="stylesheet" type="text/css"/>
+        <meta lang="ar">
+        <meta charset="utf-8">
+        <meta name="keywords" content="" />
+        <meta name="generator" content= ""/>
+        <meta name="author" content="Mohammad Ali Chaikh Ekriem"/>
+    </head>
+    <body>
+        <frameset cols="20%,80%">
+            <frame name="nav" src="../nav.html" ></frame>
+        <frame name="view" src="00.html"></frame>
+        </frameset>
+    </body>
+</html>
