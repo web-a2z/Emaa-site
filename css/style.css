@@ -1,49 +1,87 @@
+/*  body */
 body
 {width: 90%;margin-left: 5%;margin-right: 5%;
  font-weight: bold;
-}
-.footer
-{font-size: 12px;color: #a6a6a6;font-weight: normal;   
-}
+ font-size: 16px;}
+
+/* footer */
 .header
-{font-size: 10px;
-}
-.header hr
-{width: 300px;
- margin-left: 80%;
-}
+{ font-size: 12px;color: #a6a6a6;font-weight: normal;height: 20%;}
+
+/* header */
+.footer
+{font-size: 10px;}
+
+/* header hr */
+.footer hr
+{width: 300px;margin-left: 80%;}
+
+/* text center */
+.p_addr{text-align: center;}
+
+/* color green size :20px */
 .title_grean20
-{color: #76923c;font-size: 20px;
-}
+{color: #76923c;font-size: 20px;}
+
+/* color green size :24px */
 .title_grean24
-{color: #76923c;font-size: 24px;   
-}
+{color: #76923c;font-size: 24px;}
+
+/* color blue size :16px */
 .title_blue16
-{color: #548dff;font-size: 16px;   
-}
+{color: #548dff;font-size: 16px;}
+
+/* color blue size :18px */
 .title_blue18
-{color: #548dff;font-size: 18px;   
-}
+{color: #548dff;font-size: 18px;}
+
+/* color blue size :22px */
 .title_blue22
-{color: #548dff;font-size: 22px;
-}
-.table_green hr
-{background-color: #e6eed5;
-}
-.table_green td{border-bottom-color: #76923c;
-}
-.dis_l
-{
-list-style-type:disc;color: #4fc0bd;
-}
-.dis_l span
-{color: #000;
-}
-.cir_l
-{
+{color: #548dff;font-size: 22px;}
+
+/* page 5,7,13,14 */
+.table{border-collapse: separate;border-spacing: 0px;}
+
+/* color Light Blue page 5,7,13,14 */
+.table_td{background-color: #e6eed5;width: 200px;text-align: center ; }
+
+/* color green table td botton page 5,7,13,14   */
+.table_td_bottom{border-bottom:     1px solid #76923c;}
+
+/* page 14*/
+.table_td_top{border-top:     1px solid #76923c;}
+
+/* page 14*/
+.td_indent{text-indent: 3em;margin:.3em 0 .3em 0;}
+
+/* dis color blue */
+.dis_l{list-style-type:disc;color: #4fc0bd;}
+
+/*  */
+.dis_l span{color: #000;}
+
+/* cir color blue */
+.cir_l{
 list-style-type:circle;
-color: #4fc0bd;
-}
+color: #4fc0bd;}
+/*  */
 .cir_l span
-{color: #000;
-}
+{color: #000;}
+
+/* page 04 */
+td#st2{width: 40%;}
+td#st3{background-color: rgb(230,238,213);width: 60%;}
+
+/* page 05 */
+.p_8{font-size:8px;}
+#p_12{font-size:12px;}
+
+/* page 20 and 22 */
+li.list_none{list-style-type: none;} 
+
+/* page 22 */
+.text_normal{font-weight: normal;}
+
+/* page 01 */
+#p_66{font-size: 66px;}
+#div{margin-left: 20%;margin-right: 20%;}
