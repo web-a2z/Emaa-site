@@ -4,32 +4,13 @@ body
  font-weight: bold;
  font-size: 16px;}
 
-  /* style for the table with top and bottom borders */ 
-  table.greenborder
-        {
-            border-top: solid rgb(118,146,60)1px;
-            border-bottom: solid rgb(118,146,60) 1px;
-			table-layout:center;
-			text-align:center;
-            margin: 0 auto;
-			
- }
-  /*  for  odd green rows  */
- table.odd tr:nth-child(2n+1)
-        {
-        background-color: rgb(230,238,213);
-		
-    }
- 
- 
- 
 /* footer */
 .header
 { font-size: 12px;color: #a6a6a6;font-weight: normal;height: 20%;}
 
 /* header */
 .footer
-{font-size: 12px;font-weight: normal;}
+{font-size: 10px;}
 
 /* header hr */
 .footer hr
@@ -43,7 +24,7 @@ body
 {color: #76923c;font-size: 20px;}
 
 /* color green size :24px */
-.title_green24
+.title_grean24
 {color: #76923c;font-size: 24px;}
 
 /* color blue size :16px */
@@ -87,6 +68,10 @@ color: #4fc0bd;}
 .cir_l span
 {color: #000;}
 
+/* page 01 */
+#p_66{font-size: 66px;}
+#div{margin-left: 20%;margin-right: 20%;}
+
 /* page 04 */
 td#st2{width: 40%;}
 td#st3{background-color: rgb(230,238,213);width: 60%;}
@@ -101,6 +86,38 @@ li.list_none{list-style-type: none;}
 /* page 22 */
 .text_normal{font-weight: normal;}
 
-/* page 01 */
-#p_66{font-size: 66px;}
-#div{margin-left: 20%;margin-right: 20%;}
+
+/* page 13 : */
+/* page 13 : */
+colgroup.details{
+                background-color: white;
+                border: 1px solid #9BBB59;
+                border-left:1px solid #9BBB59;}
+/* page 13 : */           
+#table_13{
+                border:1px solid #9BBB59;
+                border-collapse:collapse;              
+                float: right; width: 70%}
+/* page 13 : */
+
+/* page 13 : */
+#table_13 td{border-bottom:     1px solid #9BBB59;
+   border-left:      1px solid #9BBB59;}
+/* page 13 : */
+td.w,td.t{
+    border:none;
+    background-color: white;}
+/* page 13 : */
+#table_13 tr {background-color: white;}
+#table_13 tr:nth-child(2n+1) {background-color: #E6EED5;}
+tr.row{border-top : 2.5px solid #9BBB59;  }
+/* page 13 : */
+##table_13 th{color: #548DD4;             
+  background-color: #D5E6EE;
+  border-bottom:     2.5px solid #9BBB59;
+  border-left:      1px solid #9BBB59;}
+/* page 13 : */
+#table_13 tfoot td{border-left: none;border-right: none;  }            {
+                background-color: white;
+                border: 1px solid #9BBB59;
+                border-left:1px solid #9BBB59;}
