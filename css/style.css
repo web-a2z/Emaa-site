@@ -5,7 +5,7 @@ body
  font-size: 16px;}
 
   /* style for the table with top and bottom borders */ 
-  table#first
+  table.greenborder
         {
             border-top: solid rgb(118,146,60)1px;
             border-bottom: solid rgb(118,146,60) 1px;
@@ -14,6 +14,12 @@ body
             margin: 0 auto;
 			
  }
+  /*  for  odd green rows  */
+ table.odd tr:nth-child(2n+1)
+        {
+        background-color: rgb(230,238,213);
+		
+    }
  
  
  
@@ -23,7 +29,7 @@ body
 
 /* header */
 .footer
-{font-size: 10px;}
+{font-size: 12px;font-weight: normal;}
 
 /* header hr */
 .footer hr
