@@ -4,6 +4,19 @@ body
  font-weight: bold;
  font-size: 16px;}
 
+  /* style for the table with top and bottom borders */ 
+  table#first
+        {
+            border-top: solid rgb(118,146,60)1px;
+            border-bottom: solid rgb(118,146,60) 1px;
+			table-layout:center;
+			text-align:center;
+            margin: 0 auto;
+			
+ }
+ 
+ 
+ 
 /* footer */
 .header
 { font-size: 12px;color: #a6a6a6;font-weight: normal;height: 20%;}
